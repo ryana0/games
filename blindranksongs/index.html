@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="main.js" defer></script>
+    <main id="main">
+        <div id="ranking">
+            <h1 class="rankNum"style="grid-row: 2;">1</h1>
+            <h1 class="rankNum"style="grid-row: 3;">2</h1>
+            <h1 class="rankNum"style="grid-row: 4;">3</h1>
+            <h1 class="rankNum"style="grid-row: 5;">4</h1>
+            <h1 class="rankNum"style="grid-row: 6;">5</h1>
+            <img class="pic" id="pic2" data-av="0" src="./assets/unknown.png" style="grid-row: 3;">
+            <img class="pic" id="pic1" data-av="0" src="./assets/unknown.png" style="grid-row: 2;">
+            <img class="pic" id="pic3" data-av="0" src="./assets/unknown.png" style="grid-row: 4;">
+            <img class="pic" id="pic4" data-av="0" src="./assets/unknown.png" style="grid-row: 5;">
+            <img class="pic" id="pic5" data-av="0" src="./assets/unknown.png" style="grid-row: 6;">
+            <h1 id="name1" class="ranks" style="grid-row: 2;"></h1>
+            <h1 id="name2" class="ranks" style="grid-row: 3;"></h1>
+            <h1 id="name3" class="ranks" style="grid-row: 4;"></h1>
+            <h1 id="name4" class="ranks" style="grid-row: 5;"></h1>
+            <h1 id="name5" class="ranks" style="grid-row: 6;"></h1>
+        </div>
+        <div id="nextPick">
+            <img draggable="true" src="./assets/unknown.png" id="pick">
+            <h1 id="pickName"></h1>
+            <div id="rankButtons">
+                <div id="topRow" class="rowButton">
+                    <span data-pressed="true" class="but" id="but1"><h1>1</h1></span>
+                    <span data-pressed="true" class="but" id="but2"><h1>2</h1></span>
+                    <span data-pressed="true" class="but" id="but3"><h1>3</h1></span>
+                </div>
+                <div id="botRow" class="rowButton">
+                    <span data-pressed="true" class="but" id="but4"><h1>4</h1></span>
+                    <span data-pressed="true" class="but" id="but5"><h1>5</h1></span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
